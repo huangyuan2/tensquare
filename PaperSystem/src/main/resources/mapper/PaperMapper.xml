@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dao.PaperMapper">
+    <resultMap id="paperResultMap" type="com.pojo.Paper">
+        <id property="paperId" column="paper_id"/>
+        <result property="name" column="name"/>
+        <result property="number" column="number"/>
+        <result property="detail" column="detail"/>
+    </resultMap>
+    <select id="findAllPaper" resultMap="paperResultMap">
+        SELECT * FROM paper
+    </select>
+
+    <delete id="deleteById" parameterType="long">
+        delete from paper where paper_id=#{id}
+    </delete>
+</mapper>

@@ -1,0 +1,111 @@
+2019-04-09 20:53:56.730 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==>  Preparing: select id, username, loginame, password, position, department, email, phonenum, ismanager, isystem, status, description, remark from jsh_user WHERE ( loginame = ? ) 
+2019-04-09 20:53:56.817 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==> Parameters: a666666(String)
+2019-04-09 20:53:56.870 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - <==      Total: 0
+2019-04-09 20:54:11.976 [http-nio-8080-exec-7] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==>  Preparing: select id, username, loginame, password, position, department, email, phonenum, ismanager, isystem, status, description, remark from jsh_user WHERE ( loginame = ? ) 
+2019-04-09 20:54:11.978 [http-nio-8080-exec-7] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==> Parameters: a666666(String)
+2019-04-09 20:54:11.979 [http-nio-8080-exec-7] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - <==      Total: 0
+2019-04-09 20:55:28.042 [http-nio-8080-exec-1] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==>  Preparing: select id, username, loginame, password, position, department, email, phonenum, ismanager, isystem, status, description, remark from jsh_user WHERE ( loginame = ? ) 
+2019-04-09 20:55:28.043 [http-nio-8080-exec-1] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==> Parameters: admin(String)
+2019-04-09 20:55:28.045 [http-nio-8080-exec-1] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - <==      Total: 0
+2019-04-09 20:57:16.137 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==>  Preparing: select id, username, loginame, password, position, department, email, phonenum, ismanager, isystem, status, description, remark from jsh_user WHERE ( loginame = ? ) 
+2019-04-09 20:57:16.138 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==> Parameters: jsh(String)
+2019-04-09 20:57:16.142 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - <==      Total: 1
+2019-04-09 20:57:16.143 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==>  Preparing: select id, username, loginame, password, position, department, email, phonenum, ismanager, isystem, status, description, remark from jsh_user WHERE ( loginame = ? and password = ? ) 
+2019-04-09 20:57:16.197 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==> Parameters: jsh(String), e10adc3949ba59abbe56e057f20f883e(String)
+2019-04-09 20:57:16.200 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - <==      Total: 1
+2019-04-09 20:57:16.201 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==>  Preparing: select id, username, loginame, password, position, department, email, phonenum, ismanager, isystem, status, description, remark from jsh_user WHERE ( loginame = ? ) 
+2019-04-09 20:57:16.201 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==> Parameters: jsh(String)
+2019-04-09 20:57:16.202 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - <==      Total: 1
+2019-04-09 20:57:17.289 [http-nio-8080-exec-9] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==>  Preparing: select Id, Type, KeyId, Value, BtnStr from jsh_userbusiness WHERE ( KeyId = ? and Type = ? ) 
+2019-04-09 20:57:17.313 [http-nio-8080-exec-9] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==> Parameters: 63(String), UserRole(String)
+2019-04-09 20:57:17.315 [http-nio-8080-exec-9] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - <==      Total: 1
+2019-04-09 20:57:17.388 [http-nio-8080-exec-9] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==>  Preparing: select Id, Type, KeyId, Value, BtnStr from jsh_userbusiness WHERE ( KeyId in ( ? ) and Type = ? ) 
+2019-04-09 20:57:17.390 [http-nio-8080-exec-9] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==> Parameters: 4(String), RoleAPP(String)
+2019-04-09 20:57:17.391 [http-nio-8080-exec-9] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - <==      Total: 1
+2019-04-09 20:57:17.457 [http-nio-8080-exec-9] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==>  Preparing: select Id, Number, Name, Type, Icon, URL, Width, Height, ReSize, OpenMax, Flash, ZL, Sort, Remark, Enabled from jsh_app WHERE ( ZL = ? and Enabled = ? and Id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) order by Sort 
+2019-04-09 20:57:17.469 [http-nio-8080-exec-9] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==> Parameters: dock(String), true(Boolean), 23(Long), 24(Long), 25(Long), 27(Long), 8(Long), 26(Long), 22(Long), 7(Long), 3(Long), 6(Long)
+2019-04-09 20:57:17.501 [http-nio-8080-exec-9] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - <==      Total: 1
+2019-04-09 20:57:17.506 [http-nio-8080-exec-9] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==>  Preparing: select Id, Number, Name, Type, Icon, URL, Width, Height, ReSize, OpenMax, Flash, ZL, Sort, Remark, Enabled from jsh_app WHERE ( ZL = ? and Enabled = ? and Id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) order by Sort 
+2019-04-09 20:57:17.516 [http-nio-8080-exec-9] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==> Parameters: desk(String), true(Boolean), 23(Long), 24(Long), 25(Long), 27(Long), 8(Long), 26(Long), 22(Long), 7(Long), 3(Long), 6(Long)
+2019-04-09 20:57:17.522 [http-nio-8080-exec-9] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - <==      Total: 8
+2019-04-09 21:22:47.380 [http-nio-8080-exec-3] DEBUG c.j.e.d.mappers.AccountMapper.selectByExample - ==>  Preparing: select Id, Name, SerialNo, InitialAmount, CurrentAmount, Remark, IsDefault from jsh_account order by id desc 
+2019-04-09 21:22:47.459 [http-nio-8080-exec-3] DEBUG c.j.e.d.mappers.AccountMapper.selectByExample - ==> Parameters: 
+2019-04-09 21:22:47.475 [http-nio-8080-exec-3] DEBUG c.j.e.d.mappers.AccountMapper.selectByExample - <==      Total: 5
+2019-04-09 23:28:29.392 [http-nio-8080-exec-10] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==>  Preparing: select id, username, loginame, password, position, department, email, phonenum, ismanager, isystem, status, description, remark from jsh_user WHERE ( loginame = ? ) 
+2019-04-09 23:28:29.397 [http-nio-8080-exec-10] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==> Parameters: jsh(String)
+2019-04-09 23:28:29.401 [http-nio-8080-exec-10] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - <==      Total: 1
+2019-04-09 23:28:29.403 [http-nio-8080-exec-10] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==>  Preparing: select id, username, loginame, password, position, department, email, phonenum, ismanager, isystem, status, description, remark from jsh_user WHERE ( loginame = ? and password = ? ) 
+2019-04-09 23:28:29.405 [http-nio-8080-exec-10] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==> Parameters: jsh(String), e10adc3949ba59abbe56e057f20f883e(String)
+2019-04-09 23:28:29.407 [http-nio-8080-exec-10] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - <==      Total: 1
+2019-04-09 23:28:29.408 [http-nio-8080-exec-10] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==>  Preparing: select id, username, loginame, password, position, department, email, phonenum, ismanager, isystem, status, description, remark from jsh_user WHERE ( loginame = ? ) 
+2019-04-09 23:28:29.408 [http-nio-8080-exec-10] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==> Parameters: jsh(String)
+2019-04-09 23:28:29.411 [http-nio-8080-exec-10] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - <==      Total: 1
+2019-04-09 23:28:29.611 [http-nio-8080-exec-7] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==>  Preparing: select Id, Type, KeyId, Value, BtnStr from jsh_userbusiness WHERE ( KeyId = ? and Type = ? ) 
+2019-04-09 23:28:29.613 [http-nio-8080-exec-7] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==> Parameters: 63(String), UserRole(String)
+2019-04-09 23:28:29.616 [http-nio-8080-exec-7] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - <==      Total: 1
+2019-04-09 23:28:29.619 [http-nio-8080-exec-7] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==>  Preparing: select Id, Type, KeyId, Value, BtnStr from jsh_userbusiness WHERE ( KeyId in ( ? ) and Type = ? ) 
+2019-04-09 23:28:29.622 [http-nio-8080-exec-7] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==> Parameters: 4(String), RoleAPP(String)
+2019-04-09 23:28:29.626 [http-nio-8080-exec-7] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - <==      Total: 1
+2019-04-09 23:28:29.633 [http-nio-8080-exec-7] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==>  Preparing: select Id, Number, Name, Type, Icon, URL, Width, Height, ReSize, OpenMax, Flash, ZL, Sort, Remark, Enabled from jsh_app WHERE ( ZL = ? and Enabled = ? and Id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) order by Sort 
+2019-04-09 23:28:29.635 [http-nio-8080-exec-7] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==> Parameters: dock(String), true(Boolean), 23(Long), 24(Long), 25(Long), 27(Long), 8(Long), 26(Long), 22(Long), 7(Long), 3(Long), 6(Long)
+2019-04-09 23:28:29.637 [http-nio-8080-exec-7] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - <==      Total: 1
+2019-04-09 23:28:29.640 [http-nio-8080-exec-7] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==>  Preparing: select Id, Number, Name, Type, Icon, URL, Width, Height, ReSize, OpenMax, Flash, ZL, Sort, Remark, Enabled from jsh_app WHERE ( ZL = ? and Enabled = ? and Id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) order by Sort 
+2019-04-09 23:28:29.641 [http-nio-8080-exec-7] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==> Parameters: desk(String), true(Boolean), 23(Long), 24(Long), 25(Long), 27(Long), 8(Long), 26(Long), 22(Long), 7(Long), 3(Long), 6(Long)
+2019-04-09 23:28:29.649 [http-nio-8080-exec-7] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - <==      Total: 8
+2019-04-09 23:29:44.760 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==>  Preparing: select id, username, loginame, password, position, department, email, phonenum, ismanager, isystem, status, description, remark from jsh_user WHERE ( loginame = ? ) 
+2019-04-09 23:29:44.761 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==> Parameters: jsh(String)
+2019-04-09 23:29:44.763 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - <==      Total: 1
+2019-04-09 23:29:44.764 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==>  Preparing: select id, username, loginame, password, position, department, email, phonenum, ismanager, isystem, status, description, remark from jsh_user WHERE ( loginame = ? and password = ? ) 
+2019-04-09 23:29:44.764 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==> Parameters: jsh(String), e10adc3949ba59abbe56e057f20f883e(String)
+2019-04-09 23:29:44.765 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - <==      Total: 1
+2019-04-09 23:29:44.766 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==>  Preparing: select id, username, loginame, password, position, department, email, phonenum, ismanager, isystem, status, description, remark from jsh_user WHERE ( loginame = ? ) 
+2019-04-09 23:29:44.767 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==> Parameters: jsh(String)
+2019-04-09 23:29:44.768 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - <==      Total: 1
+2019-04-09 23:29:44.953 [http-nio-8080-exec-9] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==>  Preparing: select Id, Type, KeyId, Value, BtnStr from jsh_userbusiness WHERE ( KeyId = ? and Type = ? ) 
+2019-04-09 23:29:44.953 [http-nio-8080-exec-9] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==> Parameters: 63(String), UserRole(String)
+2019-04-09 23:29:44.954 [http-nio-8080-exec-9] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - <==      Total: 1
+2019-04-09 23:29:44.956 [http-nio-8080-exec-9] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==>  Preparing: select Id, Type, KeyId, Value, BtnStr from jsh_userbusiness WHERE ( KeyId in ( ? ) and Type = ? ) 
+2019-04-09 23:29:44.956 [http-nio-8080-exec-9] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==> Parameters: 4(String), RoleAPP(String)
+2019-04-09 23:29:44.958 [http-nio-8080-exec-9] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - <==      Total: 1
+2019-04-09 23:29:44.960 [http-nio-8080-exec-9] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==>  Preparing: select Id, Number, Name, Type, Icon, URL, Width, Height, ReSize, OpenMax, Flash, ZL, Sort, Remark, Enabled from jsh_app WHERE ( ZL = ? and Enabled = ? and Id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) order by Sort 
+2019-04-09 23:29:44.961 [http-nio-8080-exec-9] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==> Parameters: dock(String), true(Boolean), 23(Long), 24(Long), 25(Long), 27(Long), 8(Long), 26(Long), 22(Long), 7(Long), 3(Long), 6(Long)
+2019-04-09 23:29:44.962 [http-nio-8080-exec-9] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - <==      Total: 1
+2019-04-09 23:29:44.965 [http-nio-8080-exec-9] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==>  Preparing: select Id, Number, Name, Type, Icon, URL, Width, Height, ReSize, OpenMax, Flash, ZL, Sort, Remark, Enabled from jsh_app WHERE ( ZL = ? and Enabled = ? and Id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) order by Sort 
+2019-04-09 23:29:44.966 [http-nio-8080-exec-9] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==> Parameters: desk(String), true(Boolean), 23(Long), 24(Long), 25(Long), 27(Long), 8(Long), 26(Long), 22(Long), 7(Long), 3(Long), 6(Long)
+2019-04-09 23:29:44.969 [http-nio-8080-exec-9] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - <==      Total: 8
+2019-04-09 23:31:32.194 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==>  Preparing: select id, username, loginame, password, position, department, email, phonenum, ismanager, isystem, status, description, remark from jsh_user WHERE ( loginame = ? ) 
+2019-04-09 23:31:32.194 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==> Parameters: jsh(String)
+2019-04-09 23:31:32.196 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - <==      Total: 1
+2019-04-09 23:31:32.197 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==>  Preparing: select id, username, loginame, password, position, department, email, phonenum, ismanager, isystem, status, description, remark from jsh_user WHERE ( loginame = ? and password = ? ) 
+2019-04-09 23:31:32.197 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==> Parameters: jsh(String), e10adc3949ba59abbe56e057f20f883e(String)
+2019-04-09 23:31:32.199 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - <==      Total: 1
+2019-04-09 23:31:32.200 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==>  Preparing: select id, username, loginame, password, position, department, email, phonenum, ismanager, isystem, status, description, remark from jsh_user WHERE ( loginame = ? ) 
+2019-04-09 23:31:32.201 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - ==> Parameters: jsh(String)
+2019-04-09 23:31:32.202 [http-nio-8080-exec-6] DEBUG c.j.e.d.mappers.UserMapper.selectByExample - <==      Total: 1
+2019-04-09 23:31:32.507 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==>  Preparing: select Id, Type, KeyId, Value, BtnStr from jsh_userbusiness WHERE ( KeyId = ? and Type = ? ) 
+2019-04-09 23:31:32.508 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==> Parameters: 63(String), UserRole(String)
+2019-04-09 23:31:32.509 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - <==      Total: 1
+2019-04-09 23:31:32.513 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==>  Preparing: select Id, Type, KeyId, Value, BtnStr from jsh_userbusiness WHERE ( KeyId in ( ? ) and Type = ? ) 
+2019-04-09 23:31:32.514 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==> Parameters: 4(String), RoleAPP(String)
+2019-04-09 23:31:32.515 [http-nio-8080-exec-8] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - <==      Total: 1
+2019-04-09 23:31:32.517 [http-nio-8080-exec-8] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==>  Preparing: select Id, Number, Name, Type, Icon, URL, Width, Height, ReSize, OpenMax, Flash, ZL, Sort, Remark, Enabled from jsh_app WHERE ( ZL = ? and Enabled = ? and Id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) order by Sort 
+2019-04-09 23:31:32.518 [http-nio-8080-exec-8] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==> Parameters: dock(String), true(Boolean), 23(Long), 24(Long), 25(Long), 27(Long), 8(Long), 26(Long), 22(Long), 7(Long), 3(Long), 6(Long)
+2019-04-09 23:31:32.521 [http-nio-8080-exec-8] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - <==      Total: 1
+2019-04-09 23:31:32.524 [http-nio-8080-exec-8] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==>  Preparing: select Id, Number, Name, Type, Icon, URL, Width, Height, ReSize, OpenMax, Flash, ZL, Sort, Remark, Enabled from jsh_app WHERE ( ZL = ? and Enabled = ? and Id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) order by Sort 
+2019-04-09 23:31:32.524 [http-nio-8080-exec-8] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==> Parameters: desk(String), true(Boolean), 23(Long), 24(Long), 25(Long), 27(Long), 8(Long), 26(Long), 22(Long), 7(Long), 3(Long), 6(Long)
+2019-04-09 23:31:32.526 [http-nio-8080-exec-8] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - <==      Total: 8
+2019-04-09 23:35:47.681 [http-nio-8080-exec-1] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==>  Preparing: select Id, Type, KeyId, Value, BtnStr from jsh_userbusiness WHERE ( KeyId = ? and Type = ? ) 
+2019-04-09 23:35:47.682 [http-nio-8080-exec-1] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==> Parameters: 63(String), UserRole(String)
+2019-04-09 23:35:47.684 [http-nio-8080-exec-1] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - <==      Total: 1
+2019-04-09 23:35:47.685 [http-nio-8080-exec-1] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==>  Preparing: select Id, Type, KeyId, Value, BtnStr from jsh_userbusiness WHERE ( KeyId in ( ? ) and Type = ? ) 
+2019-04-09 23:35:47.685 [http-nio-8080-exec-1] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - ==> Parameters: 4(String), RoleAPP(String)
+2019-04-09 23:35:47.686 [http-nio-8080-exec-1] DEBUG c.j.e.d.mappers.UserBusinessMapper.selectByExample - <==      Total: 1
+2019-04-09 23:35:47.691 [http-nio-8080-exec-1] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==>  Preparing: select Id, Number, Name, Type, Icon, URL, Width, Height, ReSize, OpenMax, Flash, ZL, Sort, Remark, Enabled from jsh_app WHERE ( ZL = ? and Enabled = ? and Id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) order by Sort 
+2019-04-09 23:35:47.692 [http-nio-8080-exec-1] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==> Parameters: dock(String), true(Boolean), 23(Long), 24(Long), 25(Long), 27(Long), 8(Long), 26(Long), 22(Long), 7(Long), 3(Long), 6(Long)
+2019-04-09 23:35:47.693 [http-nio-8080-exec-1] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - <==      Total: 1
+2019-04-09 23:35:47.695 [http-nio-8080-exec-1] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==>  Preparing: select Id, Number, Name, Type, Icon, URL, Width, Height, ReSize, OpenMax, Flash, ZL, Sort, Remark, Enabled from jsh_app WHERE ( ZL = ? and Enabled = ? and Id in ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) ) order by Sort 
+2019-04-09 23:35:47.696 [http-nio-8080-exec-1] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - ==> Parameters: desk(String), true(Boolean), 23(Long), 24(Long), 25(Long), 27(Long), 8(Long), 26(Long), 22(Long), 7(Long), 3(Long), 6(Long)
+2019-04-09 23:35:47.697 [http-nio-8080-exec-1] DEBUG c.j.e.datasource.mappers.AppMapper.selectByExample - <==      Total: 8
+2019-04-09 23:42:42.476 [http-nio-8080-exec-5] DEBUG c.j.e.d.mappers.AccountMapper.selectByExample - ==>  Preparing: select Id, Name, SerialNo, InitialAmount, CurrentAmount, Remark, IsDefault from jsh_account order by id desc 
+2019-04-09 23:42:42.478 [http-nio-8080-exec-5] DEBUG c.j.e.d.mappers.AccountMapper.selectByExample - ==> Parameters: 
+2019-04-09 23:42:42.481 [http-nio-8080-exec-5] DEBUG c.j.e.d.mappers.AccountMapper.selectByExample - <==      Total: 5
