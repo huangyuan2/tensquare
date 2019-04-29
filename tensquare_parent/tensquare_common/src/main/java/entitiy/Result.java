@@ -1,5 +1,8 @@
 package entitiy;
 
+/**
+ * 结果集实体类
+ */
 public class Result {
     private boolean flag;//是否成功
     private Integer code;//返回码
